@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium"
+    tools:context="com.chimpee.com.emlekpont_kavezo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/fontsize__big"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_small"
+        android:src="@drawable/front_pic" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/padding_large"
+            android:layout_height="@dimen/padding_large"
+            android:layout_marginRight="@dimen/padding_small"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/google_maps_icon" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/padding_large"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="@string/address"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/fontsize__medium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/padding_large"
+            android:layout_height="@dimen/padding_large"
+            android:layout_marginRight="@dimen/padding_small"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/phone_icon" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/padding_large"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="@string/phone"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/fontsize__medium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/padding_large"
+            android:layout_height="@dimen/padding_large"
+            android:layout_marginRight="@dimen/padding_small"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/facebook" />
+
+        <TextView
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/padding_large"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="@string/facebook"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/fontsize__medium" />
+
+    </LinearLayout>
+
+</LinearLayout>

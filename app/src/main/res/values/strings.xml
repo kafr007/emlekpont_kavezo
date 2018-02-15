@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">emlekpont_kavezo</string>
+    <string name="name">Emlékpont Kávézó</string>
+    <string name="address">6800, Hódmezővásárhely Andrássy utca 34.</string>
+    <string name="phone">+36 20 324 5585</string>
+    <string name="facebook">https://www.facebook.com/emlekpontkavezo/</string>
+
+
+
+</resources>
